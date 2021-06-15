@@ -1,0 +1,41 @@
+
+    header{
+        background-color:rgb(189, 92, 14) ;
+        margin-bottom: 20px;
+        padding: 1em;
+    }
+    nav{
+        background-color:goldenrod;
+        float: left;
+        width: 14em;
+    }
+    footer{
+        background-color: goldenrod;
+    }
+    figcaption{
+        text-align: center;
+    }
+    #main img{
+        width:90%;
+    }
+    figure{
+        margin-left: 50px;
+    }
+    #main{
+        margin-left: 15em;
+        background-color: burlywood;
+        margin-right: 13em;
+        width: 700px;
+    }
+    aside{
+    float: right;
+    background-color: rgb(6, 68, 6);
+    width: 23em;
+    }  
+    ul{
+        list-style-type: none;
+        color: rgb(6, 68, 6);
+    }
+    .grace figure{
+        width: 80%;
+    }
