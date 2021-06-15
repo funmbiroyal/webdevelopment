@@ -1,0 +1,16 @@
+.main{
+   justify-content: flex-end;
+   display:flex;
+   padding-right: 600px;
+   align-items: stretch;
+   margin-bottom: 100px;
+}
+.first{
+    background-color:seagreen;
+}
+.second{
+    background-color: saddlebrown;
+}
+.third{
+    background-color: salmon;
+}
