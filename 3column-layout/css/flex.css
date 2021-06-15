@@ -1,0 +1,14 @@
+.media-image{
+    float: left;
+    margin-right:1cm; 
+    width:500px;
+}
+
+.media{
+    display: flex;
+    align-items: flex-start;
+}
+
+body{
+    background-color: palevioletred;
+}
