@@ -1,0 +1,51 @@
+var food_Values = {
+    "apple":{
+        category:"Fruits",
+        price:1.99,
+        nutrients:{
+            fat:1,
+            energy:1,
+            protein:1,
+            calories:1,
+            vitamins:1
+        }
+    },
+    "orange":{
+        category:"Fruits",
+        price:1.99,
+        nutrients:{
+            fat:1,
+            energy:1,
+            protein:1,
+            calories:1,
+            vitamins:1
+        }
+    },
+    "burger":{
+        category:"Fruits",
+        price:1.99,
+        nutrients:{
+            fat:1,
+            energy:1,
+            protein:1,
+            calories:1,
+            vitamins:1
+        }
+    },
+    "coffee":{
+        category:"Fruits",
+        price:1.99,
+        nutrients:{
+            fat:1,
+            energy:1,
+            protein:1,
+            calories:1,
+            vitamins:1
+        }
+    }
+}
+console.log(food_Values);
+document.write(food_Values.coffee.category)
+let y = 7;
+let x = 5;
+console.log(x * y);
