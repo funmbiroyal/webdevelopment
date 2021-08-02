@@ -1,0 +1,38 @@
+.mainDiv{
+  background-image: url(./flower.jpeg);
+  width: 20%;
+   margin: 30px; 
+   display: flex;
+   justify-content: center;
+   
+}
+.white{
+    background-color: white;
+    width: 95%;
+    margin:17px;
+}
+.welcome{
+  padding: 15px;
+}
+.forget{
+  text-align: right;
+  margin-top: 10px;
+}
+.login-btn{
+  text-align: center;
+  background-color: black; 
+  padding: 7px;
+  margin-top: 25px;
+}
+p{
+  text-align: center;
+}
+.social{
+  display: flex;
+  justify-content: space-around;
+}
+.create{
+  text-align: center;
+  background-color: grey;
+  padding: 7px;
+}
