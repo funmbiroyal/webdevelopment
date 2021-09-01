@@ -1,0 +1,19 @@
+.House{
+     padding: 20px 10px; 
+    margin:auto;
+    width:50%;
+    background-color: rgb(179, 168, 21);
+     
+}
+.roof{
+    background-color: brown;
+    justify-content: center;
+}
+.land{
+    justify-content: center;
+    background-color: rgb(5, 94, 17);
+}
+.foundation{
+    justify-content: center;
+    background-color: darkgoldenrod;
+}
