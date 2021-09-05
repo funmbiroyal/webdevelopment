@@ -1,4 +1,5 @@
 import { FaAngleDoubleRight,FaReact,FaJsSquare,FaHtml5} from "react-icons/fa";
+import {MdChatBubbleOutline} from "react-icons/md";
 const Grace = ()=>{
     return(
         <div className='gracey'>
@@ -49,6 +50,16 @@ const Grace = ()=>{
                 </div>
                 
               </div>
+            </div>
+            <div className='work'>
+                <h1>What are you working on?</h1>
+                <div className = 'work1'>
+                  Let’s have a conversation! I’d love to hear about what you’re <br/>
+                  working on and find a way to work together.
+                </div>
+                <div className='chat'>
+                  <MdChatBubbleOutline /> <p>Chat</p> 
+                </div>
             </div>
                    
                
