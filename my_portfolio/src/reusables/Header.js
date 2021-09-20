@@ -1,13 +1,20 @@
+import "./Header.css"
 import {FaHeart} from 'react-icons/fa'
-const Header = ({title})=>{
+import { useState, CSSProperties } from "react"
+
+const Header = ({title, setPage})=>{
+
     return(
         <div className="header">
-          <h3 className="h3"> <FaHeart style= {{cursor:'pointer',color:"#82F9A1"}}></FaHeart>  {title}</h3>
-
-              <ul>< a href="https://reactjs.org/">Articles</a></ul>  
+          <div className="icon" onClick={()=>setPage('home')}>
+               <FaHeart style= {{cursor:'pointer',color:"#82F9A1"}}></FaHeart>    <h2>{title}</h2> 
+          </div>
+              <div className ="navBar">
+              <ul>< a href="#" onClick={()=>setPage('articles')}>Articles</a></ul>  
               <ul><a href = "#">Snippets</a></ul>
-              <ul><a href="#">About</a></ul>
-              <button>Contact</button>
+              <ul><a href="#" onClick = {()=>setPage('about')}>About</a></ul>
+              <ul className ="contact"><a href="#">Contact</a></ul>
+            </div>
              
 
 
