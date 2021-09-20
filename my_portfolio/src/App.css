@@ -30,6 +30,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  cursor: pointer;
 }
 .navBar{
 display: flex;
@@ -160,20 +161,46 @@ button{
   margin-top: 5pc; 
 
 }
+.work h1{
+  color: #B0FBBC;
+}
 .work1{
   color: white;
   text-align: center;
+  line-height: 25px;
 }
 .chat{
   display: flex;
   align-items: center;
   justify-content: space-around;
-  width: 7%;
+  width: 5%;
   color: black; 
   border-radius: 6px;
   background-color:  #81F59B;
-  padding: 3px;
+  padding: 8px 12px;
+  font-weight: bolder;
+  margin-top: 45px;
+  margin-bottom: 65px;
+}
+.container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
 }
-
+.articlePage{
+  color: white;
+  line-height: 25px;
+}
+.articlePage h1{
+  color:#81F59B ;
+}
+.allAbout{
+  color: white;
+  line-height: 25px;
+  }
+  .allAbout h1{
+    color:#81F59B ;
+  }
 
